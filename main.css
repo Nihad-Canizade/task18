@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 32px;
+}
+
+.section1 {
+  width: 100%;
+  height: 750px;
+}
+.section1 .forline {
+  text-decoration: line-through;
+  text-decoration-color: orangered;
+  color: white;
+  margin-right: 10px;
+}
+.section1 h1 {
+  font-size: 30px;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.section1 .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 4rem;
+}
+.section1 .cards .card1, .section1 .cards .card2, .section1 .cards .card3, .section1 .cards .card4, .section1 .cards .card5 {
+  width: 280px;
+  height: 350px;
+  border-radius: 5px;
+  background-size: cover;
+}
+.section1 .cards .card1 {
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-02.jpg);
+  position: relative;
+}
+.section1 .cards .card1:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.section1 .cards .card1 .formoney {
+  color: white;
+  padding: 15px;
+  background-color: orangered;
+  position: absolute;
+  font-weight: bold;
+}
+.section1 .cards .card1 .forname {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  padding: 20px;
+  background-color: orangered;
+  width: 100%;
+}
+.section1 .cards .card2 {
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-03.jpg);
+  position: relative;
+}
+.section1 .cards .card2:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.section1 .cards .card2 .formoney {
+  color: white;
+  padding: 15px;
+  background-color: orangered;
+  position: absolute;
+  font-weight: bold;
+}
+.section1 .cards .card2 .forname {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  padding: 20px;
+  background-color: orangered;
+  width: 100%;
+}
+.section1 .cards .card3 {
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-04.jpg);
+  position: relative;
+}
+.section1 .cards .card3:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.section1 .cards .card3 .formoney {
+  color: white;
+  padding: 15px;
+  background-color: orangered;
+  position: absolute;
+  font-weight: bold;
+}
+.section1 .cards .card3 .forname {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  padding: 20px;
+  background-color: orangered;
+  width: 100%;
+}
+.section1 .cards .card4 {
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-05.jpg);
+  position: relative;
+}
+.section1 .cards .card4:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.section1 .cards .card4 .formoney {
+  color: white;
+  padding: 15px;
+  background-color: orangered;
+  position: absolute;
+  font-weight: bold;
+}
+.section1 .cards .card4 .forname {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  padding: 20px;
+  background-color: orangered;
+  width: 100%;
+}
+.section1 .cards .card5 {
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-01.jpg);
+  position: relative;
+}
+.section1 .cards .card5:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.section1 .cards .card5 .formoney {
+  color: white;
+  padding: 15px;
+  background-color: orangered;
+  position: absolute;
+  font-weight: bold;
+}
+.section1 .cards .card5 .forname {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  padding: 20px;
+  background-color: orangered;
+  width: 100%;
+}
+
+.section2 {
+  width: 100%;
+  height: 650px;
+}
+.section2 .sec2-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.section2 .sec2-in .forline2 {
+  color: white;
+  text-decoration: line-through;
+  text-decoration-color: orangered;
+  margin-right: 10px;
+}
+.section2 .sec2-in h1 {
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.section2 .sec2-in p {
+  margin-top: 1rem;
+  font-size: 18px;
+  line-height: 25px;
+}
+.section2 .sec2-in .fortext-in-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.section2 .sec2-in .fortext-in-imgs .img1, .section2 .sec2-in .fortext-in-imgs .img2, .section2 .sec2-in .fortext-in-imgs .img3 {
+  width: 160px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+.section2 .sec2-in .fortext-in-imgs .img1 {
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/about-thumb-01.jpg);
+}
+.section2 .sec2-in .fortext-in-imgs .img2 {
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/about-thumb-02.jpg);
+}
+.section2 .sec2-in .fortext-in-imgs .img3 {
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/about-thumb-03.jpg);
+}
+.section2 .sec2-in .forimg {
+  width: 500px;
+  height: 520px;
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/about-video-bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.section2 .sec2-in .forimg i {
+  font-size: 40px;
+  padding: 12px 15px 12px 15px;
+  border-radius: 9999px;
+  background-color: orangered;
+  color: white;
+}
+.section2 .sec2-in .forimg i:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .section1 {
+    width: auto;
+    height: auto;
+  }
+  .section1 .cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1 .cards .card1, .section1 .cards .card2, .section1 .cards .card3, .section1 .cards .card4, .section1 .cards .card5 {
+    width: 90%;
+    height: 450px;
+  }
+  .section2 {
+    margin-top: 5rem;
+    width: auto;
+    height: auto;
+  }
+  .section2 .sec2-in {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */
