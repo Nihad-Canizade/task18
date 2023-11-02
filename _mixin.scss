@@ -1,0 +1,39 @@
+@mixin forline{
+    text-decoration: line-through;
+    text-decoration-color: orangered;
+    color: white;
+    margin-right: 10px;
+}
+
+@mixin sec3-boxs{
+    width: 280px;
+    height: 180px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin sec3-icon{
+    padding: 25px;
+    background-color: orangered;
+    position: absolute;
+    top: -1.5rem;
+    border-radius: 9999px;
+    font-size: 20px;
+    color: white;
+}
+
+@mixin input{
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 209, 209);
+}
